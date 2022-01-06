@@ -18,3 +18,25 @@ header {
 header hgroup {
   margin-bottom: var(--spacing-company);
 } */
+
+/* Main */
+@media (min-width: 992px) {
+  main .grid {
+    grid-column-gap: var(--spacing-company);
+    grid-template-columns: auto 25%;
+  }
+}
+
+form.grid {
+  grid-row-gap: 0;
+}
+
+/* Aside nav */
+aside img {
+  margin-bottom: 0.25rem;
+}
+
+aside p {
+  margin-bottom: var(--spacing-company);
+  line-height: 1.25;
+}
