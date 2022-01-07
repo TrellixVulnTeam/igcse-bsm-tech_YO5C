@@ -1,25 +1,47 @@
+/* Global CSS variables */
+:root {
+  --spacing-company: 1rem;
+  --font-weight: 400;
+  --border-radius: 0;
+}
+
+/* Typography */
+h2,
+h3,
+hgroup > :last-child {
+  font-weight: 200;
+}
+
+small {
+  color: var(--muted-color);
+}
+
 /* Header */
 .hero {
   background-color: #394046;
-  background-image: url("https://pixabay.com/get/g8b5bc20ca14e2329b6c025c29e0190b3d80eb123195df0e70cfbe04f2d7ef0e36d67fce4a9921971a39662af80804317ba19633a74f7dbb2fed20cfec757945e085785a27d3149d4fdc67b404e634808_1920.jpg");
+  background-image: url("/images/cyber-network.jpg");
   background-position: center;
   background-size: cover;
-  padding-bottom: 10px;
 }
 
 header {
   padding: var(--spacing-company) 0;
 }
 
-/* header hgroup > :last-child {
+header hgroup > :last-child {
   color: var(--h3-color);
 }
 
 header hgroup {
   margin-bottom: var(--spacing-company);
-} */
+}
 
 /* Main */
+
+main article{
+  margin: 0;
+}
+
 @media (min-width: 992px) {
   main .grid {
     grid-column-gap: var(--spacing-company);
