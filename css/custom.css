@@ -24,6 +24,10 @@ small {
   background-size: cover;
 }
 
+.hero nav{
+  background: rgba(0,0,0,0.5);
+}
+
 header {
   padding: var(--spacing-company) 0;
 }
